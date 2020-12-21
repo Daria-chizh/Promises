@@ -6,4 +6,3 @@ export default class GameSavingLoader {
     return read().then((data) => json(data));
   }
 }
-
